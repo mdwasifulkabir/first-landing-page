@@ -1,7 +1,7 @@
 body {
     display:flex;
     flex-direction: column;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -11,9 +11,24 @@ body {
     flex-grow: 1;
     background-color: #1F2937;
     padding: 20px 200px;
-    padding: 8px 22%;
+    padding: 8px 15%;
     gap: 50px;
     padding-bottom: 50px;
+}
+
+.opening {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.opening img {
+    display: flex;
+    flex-shrink: 1;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
 }
 
 .hero-main{
@@ -51,12 +66,6 @@ a, .hero-secondary {
     align-items: center;
 }
 
-.opening {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-}
 
 .button1 {
     background-color: #3882F6;
@@ -95,7 +104,7 @@ a, .hero-secondary {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     width: 80%
 }
 
@@ -115,13 +124,6 @@ a, .hero-secondary {
     width: 125px;
 }
 
-.opening img {
-    display: flex;
-    flex-shrink: 1;
-    height: 300px;
-    width: 500px;
-    border-radius: 10px;
-}
 
 .quote-section {
     display: flex;
