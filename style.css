@@ -141,3 +141,46 @@ a, .hero-secondary {
     font-size: 20px;
     margin-bottom: 50px;
 }
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAF8;
+}
+
+.signup-panel {
+    display:flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 4px;
+    width: 800px;
+    padding: 30px;
+    margin: 80px;
+}
+
+.signup-header {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid;
+    border-radius: 2px;
+}
+
+.footer {
+    height: 70px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
