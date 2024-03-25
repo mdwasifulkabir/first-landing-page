@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     flex-grow: 1;
     background-color: #1F2937;
+    padding: 20px 200px;
     padding: 8px 22%;
     gap: 50px;
     padding-bottom: 50px;
@@ -54,6 +55,7 @@ a, .hero-secondary {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
 }
 
 .button1 {
@@ -91,13 +93,15 @@ a, .hero-secondary {
 
 .info-cards {
     display: flex;
+    justify-content: center;
     gap: 16px;
     margin-bottom: 100px;
+    width: 80%
 }
 
 .info-card {
     display: flex;
-    width: 150px;
+    width: 200px;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -107,8 +111,8 @@ a, .hero-secondary {
 .info-card img{
     border: 3px solid #3882F6;
     border-radius: 8px;
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
 }
 
 .opening img {
@@ -125,6 +129,7 @@ a, .hero-secondary {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    padding: 0px 80px;
 }
 
 .quote {
@@ -135,6 +140,7 @@ a, .hero-secondary {
 }
 
 .quote-author{
+    margin-right: 22%;
     display: flex;
     align-self: flex-end;
     font-weight: bold;
@@ -155,8 +161,8 @@ a, .hero-secondary {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 4px;
-    width: 800px;
-    padding: 30px;
+    width: 60%;
+    padding: 30px 100px;
     margin: 80px;
 }
 
@@ -173,7 +179,8 @@ a, .hero-secondary {
     text-align: center;
     border-radius: 8px;
     border: 2px solid;
-    border-radius: 2px;
+    border-radius: 8px;
+    width: 120px;
 }
 
 .footer {
