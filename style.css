@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     flex-grow: 1;
     background-color: #1F2937;
-    padding: 8px 20%;
+    padding: 8px 22%;
     gap: 50px;
     padding-bottom: 50px;
 }
@@ -80,18 +80,19 @@ a, .hero-secondary {
     justify-content: center;
     align-items:center;
     background-color: #F9FAF8;
-    padding: 25px;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: 50px;
 }
 
 .info-cards {
     display: flex;
     gap: 16px;
+    margin-bottom: 100px;
 }
 
 .info-card {
@@ -100,6 +101,7 @@ a, .hero-secondary {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 16px;
 }
 
 .info-card img{
@@ -107,4 +109,35 @@ a, .hero-secondary {
     border-radius: 8px;
     height: 100px;
     width: 100px;
+}
+
+.opening img {
+    display: flex;
+    flex-shrink: 1;
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    margin: 100px 22%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-author{
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
